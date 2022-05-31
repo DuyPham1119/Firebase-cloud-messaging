@@ -25,3 +25,16 @@ function SubcribeUser() {
         }
     })
 }
+
+messaging.onMessage((payload) => {
+    console.log('[firebase-messaging-sw.js] Received background message ', payload);
+    const notificationTitle = payload.notification.title;
+    const notificationOptions = {
+        body: payload.notification.body,
+    };
+    
+    if (notificationTitle && notificationOptions) {
+        navigator.serviceWorker.ready.then(function(registration) {
+            registration.showNotification(notificationTitle, notificationOptions)})
+    }
+  });
