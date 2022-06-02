@@ -17,5 +17,5 @@ To run this project, please fill missing configuration inside:
 ![text](images/live_server.png)
 ## Step 2: In index.html, press Go live and you could view running project in http://127.0.0.1:5500
 ![text](images/page_1.png)
-## Step 2: In http://127.0.0.1:5500, press Subcribe to get device token and copy to clipboard  
+## Step 3: In http://127.0.0.1:5500, press Subcribe to get device token and copy to clipboard  
 ![text](images/page_2.png)
