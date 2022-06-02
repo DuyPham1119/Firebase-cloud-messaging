@@ -4,5 +4,11 @@ To run this project, please fill missing configuration inside:
 * firebase config json (in both js file)
 * vapidKey
 
-
+# Steps to get firebase config json and vapidKey
+## Step 1: Open firebase console in the right tab then select project settings
+![text](images/to_settings.png)
+## Step 2: In General Tab, scroll down and get firebase config json
+![text](images/firebase-config.png)
+## Step 3: In Cloud Messaging Tab, get the server key and generate key pair (vapidKey)
+![text](images/get_key.png)
 
